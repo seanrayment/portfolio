@@ -1,4 +1,5 @@
 .nav-wrapper {
+	position: absolute;
 	background-color: #7986cb
 }
 
@@ -9,6 +10,7 @@
 	text-align: center;
 	display: block;
 	background-color: #c5cae9;
+	margin-bottom: 20%;
 }
 
 #profile_image {
@@ -28,6 +30,10 @@
 	font-size: 2vw;
 }
 
+#profile_text:hover {
+	cursor: pointer;
+}
+
 #profile {
 	display: block;
 	margin: 0 auto;
@@ -38,7 +44,7 @@
 }
 
 #profile:hover {
-	opacity: 0.9
+	cursor: pointer;
 }
 
 .flexContainer {
@@ -46,6 +52,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center; 
+	margin-bottom: 20%;
 }
 
 #skills {
@@ -69,7 +76,7 @@
 	flex-direction: row;
 }
 
-#my_tab {
+.my_tab {
 	text-align: center;
 	display: block;
 	width: 25vw;
@@ -79,30 +86,61 @@
 	color: white;
 }
 
-#my_tab:hover {
+.my_tab:hover {
+	background-color: #3949ab;
+	cursor: pointer;
+}
+
+#tab-one {
 	background-color: #3949ab;
 }
 
-.tabs {
+#projects {
 	color: #3f51b5;
+	font-size: 3em;
 	text-align: center;
-	display: block;
 }
 
-.tab_area {
-	display: block;
-	overflow: auto;
-}
-
-span {
+#website {
 	font-size: 3vw;
 	display: inline-block;
-	padding-left: 5%;
+	color: #3949ab;
 }
 
-#tab1 {
-	display: block;
-	overflow: auto;
+.textBox {
+	font-size: 2vw;
+	line-height: 2;
+}
+
+.textBoxHeader {
+	font-size: 3.5vw;
+}
+
+.projectTable {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 20%;
+}
+
+.ring {
+	width: 50vw;
+}
+
+.leftSide {
+	width: 50%;
+	display: inline-block;
+}
+
+.rightSide {
+	display: inline-block;
+	width: 50%;
+}
+
+#tab2 {
+	display: none;
 }
 /*######################*/
 
@@ -152,5 +190,29 @@ span {
 		width: 60vw;
 		height: 60vw;
 		font-size: 4vw;
+	}
+
+	#website {
+		font-size: 5.5vw;
+	}
+
+	.textBox {
+		font-size: 4.5vw;
+	}
+
+	.textBoxHeadaer {
+		font-size: 6vw;
+	}
+
+	.leftSide {
+		width: 100vw;
+	}
+
+	.rightSide {
+		width: 100vw;
+	}
+
+	.ring {
+		width: 100%;
 	}
 }

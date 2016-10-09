@@ -15,16 +15,16 @@
         <nav>
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo">Sean Rayment</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">face</i></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#skills">Skills</a></li>
-            <li><a href="badges.html">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="collapsible.html">About</a></li>
             <li><a href="mobile.html">Contact</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">Skills</a></li>
-            <li><a href="badges.html">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="collapsible.html">About</a></li>
             <li><a href="mobile.html">Contact</a></li>
           </ul>
@@ -67,20 +67,65 @@
         <div><img class="php_logo" src="PHP-logo.svg"></div>
       </div>
 
+      <div id="projects" class="coll s12">
+      Projects
+      </div>
       <div id="project_section" class="row">
-        <div id="my_tab" class="col s3">Ring Game</div>
-        <div id="my_tab" class="col s3">Noise Generator</div>
-        <div id="my_tab" class="col s3">Simon Says</div>
-        <div id="my_tab" class="col s3">Greek Mod</div>
+        <div id="tab-one" class="my_tab" class="col s3">Ring Ball</div>
+        <div id="tab-two" class="my_tab" class="col s3">Noise Generator</div>
+        <div id="tab-three" class="my_tab" class="col s3">Simon Says</div>
+        <div id="tab-four" class="my_tab" class="col s3">Greek Mod</div>
       </div>
 
-      <div>
-      HELLO <br>
-      HELLO <br>
-      HELLO <br>
-      HELLO <br>
-      HELLO <br>
-      HELLO <br>
+      <div class=projectTable id="tab1">
+
+      <div class='leftSide'>
+      <span id="website">
+        Website:
+        <a href="http://ring-ball.com" target="_blank">ring-ball.com</a>
+        <span id="website">
+        Github:
+        <a href="https://github.com/seanrayment/Ring-Game" target="_blank">Repo</a>
+        <div class="textBox" id="tab1text">
+        <span class="textBoxHeader">Skills aquired</span> <br>
+        DOM manipulation with vanilla javascript <br>
+        Drawing graphics on the HTML5 canvas element <br>
+        2D game physics such as movement and collisions <br>
+        Game loop function to update canvas <br>
+        </div>
+      </span>
+      </div>
+
+      <div class="rightSide">
+      <img class="ring" src="ring-game1.png">
+      <img class="ring" src="ring-game2.png">
+      </div>
+
+      </div>
+
+      <div class=projectTable id="tab2">
+
+      <div class='leftSide'>
+      <span id="website">
+        Website:
+        <a href="https://seanrayment.github.io/Noise-Generator/" target="_blank">Noise Generator</a>
+        <span id="website">
+        Github:
+        <a href="https://github.com/seanrayment/Noise-Generator" target="_blank">Repo</a>
+        <div class="textBox" id="tab1text">
+        <span class="textBoxHeader">Skills aquired</span> <br>
+        Turning the HTML5 Canvas into a grid<br>
+        Using javascript to access form data<br>
+        2D Array iteration<br>
+        Random numbers in javascript<br>
+        </div>
+      </span>
+      </div>
+
+      <div class="rightSide">
+      <img class="ring" src="noise.png">
+      </div>
+
       </div>
 
       <script type="text/javascript" src="jquery-3.1.1.js"></script>
