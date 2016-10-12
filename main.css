@@ -180,6 +180,12 @@
 #skills {
 	color: white;
 }
+
+.navButton {
+	padding: 5px;
+	width: 48px;
+}
+
 /*######################*/
 
 .html_logo {
